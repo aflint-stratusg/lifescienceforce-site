@@ -21,4 +21,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./        # Deploys from repo root
-          server-dir: /biotechforce.com/public_html/
+          server-dir: /lifescienceforce.com/public_html/
