@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeScienceForce — Cloud Solutions for Life Sciences | Salesforce</title>
+  <meta name="description" content="LifeScienceForce delivers quick-start Salesforce cloud solutions for pharmaceutical, biotech, medical device, and life sciences companies. 20+ years of regulated industry experience.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LifeScienceForce — Cloud Solutions for Life Sciences">
+  <meta property="og:description" content="Quick-start Salesforce cloud solutions for pharmaceutical, biotech, medical device, and life sciences companies.">
+  <meta property="og:url" content="https://www.lifescienceforce.com">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LifeScienceForce — Cloud Solutions for Life Sciences">
+  <meta name="twitter:description" content="Quick-start Salesforce cloud solutions for pharmaceutical, biotech, medical device, and life sciences companies.">
+
+  <link rel="canonical" href="https://www.lifescienceforce.com">
+
+  <!-- reCAPTCHA -->
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script>
+    function timestamp() {
+      var response = document.getElementById("g-recaptcha-response");
+      if (response == null || response.value.trim() == "") {
+        var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);
+        elems["ts"] = JSON.stringify(new Date().getTime());
+        document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems);
+      }
+    }
+    setInterval(timestamp, 500);
+  </script>
+
+  <!-- Fonts -->
+  <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700,800&f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "LifeScienceForce",
+    "description": "Quick-start Salesforce cloud solutions for life sciences companies",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Cloud",
+    "provider": {
+      "@type": "Organization",
+      "name": "StratusG Consulting",
+      "url": "https://www.stratusg.com",
+      "telephone": "855-878-2600",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "999 Third Avenue, Suite 700",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA",
+        "postalCode": "98104"
+      }
+    },
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="LifeScienceForce home">
+        <!-- LSF Logo SVG -->
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="20" cy="20" r="18" stroke="var(--color-primary)" stroke-width="2" opacity="0.2"/>
+          <circle cx="20" cy="20" r="12" stroke="var(--color-secondary)" stroke-width="2" opacity="0.3"/>
+          <!-- Hexagonal molecule -->
+          <path d="M20 8 L28 14 L28 26 L20 32 L12 26 L12 14 Z" stroke="var(--color-primary)" stroke-width="1.5" fill="none"/>
+          <circle cx="20" cy="8" r="2.5" fill="var(--color-primary)"/>
+          <circle cx="28" cy="14" r="2.5" fill="var(--color-secondary)"/>
+          <circle cx="28" cy="26" r="2.5" fill="var(--color-primary)"/>
+          <circle cx="20" cy="32" r="2.5" fill="var(--color-secondary)"/>
+          <circle cx="12" cy="26" r="2.5" fill="var(--color-primary)"/>
+          <circle cx="12" cy="14" r="2.5" fill="var(--color-secondary)"/>
+          <circle cx="20" cy="20" r="3" fill="var(--color-primary)"/>
+          <!-- Inner bonds -->
+          <line x1="20" y1="20" x2="20" y2="8" stroke="var(--color-primary)" stroke-width="1" opacity="0.4"/>
+          <line x1="20" y1="20" x2="28" y2="14" stroke="var(--color-secondary)" stroke-width="1" opacity="0.4"/>
+          <line x1="20" y1="20" x2="28" y2="26" stroke="var(--color-primary)" stroke-width="1" opacity="0.4"/>
+          <line x1="20" y1="20" x2="20" y2="32" stroke="var(--color-secondary)" stroke-width="1" opacity="0.4"/>
+          <line x1="20" y1="20" x2="12" y2="26" stroke="var(--color-primary)" stroke-width="1" opacity="0.4"/>
+          <line x1="20" y1="20" x2="12" y2="14" stroke="var(--color-secondary)" stroke-width="1" opacity="0.4"/>
+        </svg>
+        <span class="logo-text">Life<span>Science</span>Force</span>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links" role="list">
+          <li><a href="#solutions">Solutions</a></li>
+          <li><a href="#integrations">Integrations</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+          </li>
+          <li><a href="#contact" class="nav-cta">Get Started</a></li>
+        </ul>
+      </nav>
+
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#solutions">Solutions</a>
+      <a href="#integrations">Integrations</a>
+      <a href="#process">How It Works</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <div class="hero-badge">20+ Years in Regulated Life Sciences</div>
+          <h1>Cloud Solutions for <span class="accent">Life Sciences</span></h1>
+          <p class="hero-description">LifeScienceForce is a quick-start, out-of-the-box Salesforce solution built to support your company's commercial journey across pharma, biotech, medical devices, and diagnostics.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-primary">
+              Schedule a Demo
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#solutions" class="btn-secondary">Explore Solutions</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <canvas id="heroCanvas" width="520" height="520" aria-hidden="true"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== STATS ========== -->
+    <section class="stats reveal">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-number">20+</div>
+            <div class="stat-label">Years in Life Sciences</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">100s</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">First</div>
+            <div class="stat-label">Salesforce in Regulated Biotech</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">30+</div>
+            <div class="stat-label">Years of IT Solutions</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SOLUTIONS ========== -->
+    <section class="solutions section reveal" id="solutions">
+      <div class="container">
+        <div class="section-tag">Comprehensive Cloud Solutions</div>
+        <h2 class="section-title">Purpose-Built for Life Sciences</h2>
+        <p class="section-description">From commercial launch through market expansion, our solutions span the full spectrum of life sciences operations — pharma, biotech, medical devices, and diagnostics.</p>
+
+        <div class="solutions-grid">
+          <!-- Sales Process -->
+          <article class="solution-card">
+            <div class="solution-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 21H4.6c-.56 0-.84 0-1.054-.109a1 1 0 0 1-.437-.437C3 20.24 3 19.96 3 19.4V3"/><path d="m7 14.5 3.5-4 4 2 5-6"/></svg>
+            </div>
+            <h3>Sales Process</h3>
+            <p>Manage your commercial operations with territory planning, key account management, sample tracking, and HCP engagement tools designed for regulated environments.</p>
+            <div class="solution-tags">
+              <span class="solution-tag">Territory Management</span>
+              <span class="solution-tag">Key Accounts</span>
+              <span class="solution-tag">Sample Tracking</span>
+              <span class="solution-tag">HCP Engagement</span>
+            </div>
+          </article>
+
+          <!-- Medical Affairs -->
+          <article class="solution-card">
+            <div class="solution-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 2a2 2 0 0 0-2 2v5H4a2 2 0 0 0-2 2v2c0 1.1.9 2 2 2h5v5c0 1.1.9 2 2 2h2a2 2 0 0 0 2-2v-5h5a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-5V4a2 2 0 0 0-2-2h-2z"/></svg>
+            </div>
+            <h3>Medical Affairs</h3>
+            <p>Support medical science liaisons, KOL management, medical information requests, and publication tracking with compliance-ready workflows across therapeutic areas.</p>
+            <div class="solution-tags">
+              <span class="solution-tag">MSL Management</span>
+              <span class="solution-tag">KOL Tracking</span>
+              <span class="solution-tag">Medical Information</span>
+              <span class="solution-tag">Publications</span>
+            </div>
+          </article>
+
+          <!-- Distribution Management -->
+          <article class="solution-card">
+            <div class="solution-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v3"/><path d="M12 12v2"/><path d="M2 12h20"/></svg>
+            </div>
+            <h3>Distribution Management</h3>
+            <p>Track product distribution through specialty pharmacies, wholesalers, and direct channels. Manage contracts, chargebacks, and rebate programs across your supply chain.</p>
+            <div class="solution-tags">
+              <span class="solution-tag">Specialty Pharmacy</span>
+              <span class="solution-tag">Channel Management</span>
+              <span class="solution-tag">Chargebacks</span>
+              <span class="solution-tag">Rebate Programs</span>
+            </div>
+          </article>
+
+          <!-- System Integrations -->
+          <article class="solution-card">
+            <div class="solution-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48 2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48 2.83-2.83"/></svg>
+            </div>
+            <h3>System Integrations</h3>
+            <p>Connect Salesforce with your existing technology stack — ERP systems, data warehouses, compliance platforms, and third-party data providers like IQVIA and Symphony Health.</p>
+            <div class="solution-tags">
+              <span class="solution-tag">ERP Integration</span>
+              <span class="solution-tag">Data Warehouse</span>
+              <span class="solution-tag">IQVIA / Symphony</span>
+              <span class="solution-tag">API Management</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INTEGRATIONS ========== -->
+    <section class="integrations section reveal" id="integrations">
+      <div class="container">
+        <div class="section-tag">Enterprise Integrations</div>
+        <h2 class="section-title">Connects with Your Entire Stack</h2>
+        <p class="section-description">Seamlessly integrate with the platforms and systems your organization already relies on — from identity management to compliance tools.</p>
+
+        <div class="integrations-grid">
+          <div class="integration-card">
+            <div class="integration-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <span>SSO</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/></svg>
+            </div>
+            <span>Data Warehouse</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect x="6" y="10" width="12" height="12" rx="1"/><path d="M12 10v6"/><path d="M9 13h6"/></svg>
+            </div>
+            <span>ID Tracking</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <span>ITSM</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <span>Outlook</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 13H8"/><path d="M16 17H8"/><path d="M16 13h-2"/></svg>
+            </div>
+            <span>Documents</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <span>Compliance</span>
+          </div>
+          <div class="integration-card">
+            <div class="integration-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48 2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48 2.83-2.83"/></svg>
+            </div>
+            <span>Custom</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BEYOND CRM ========== -->
+    <section class="beyond section reveal">
+      <div class="container">
+        <div class="section-tag">Beyond CRM</div>
+        <h2 class="section-title">Three Decades of Industry IT Solutions</h2>
+        <p class="section-description">Our expertise extends far beyond CRM. We deliver enterprise-grade IT solutions purpose-built for regulated life sciences environments.</p>
+
+        <div class="beyond-grid">
+          <div class="beyond-item">
+            <div class="beyond-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/></svg>
+            </div>
+            <span>Document Management</span>
+          </div>
+          <div class="beyond-item">
+            <div class="beyond-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+            </div>
+            <span>Training Management</span>
+          </div>
+          <div class="beyond-item">
+            <div class="beyond-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <span>eQMS</span>
+          </div>
+          <div class="beyond-item">
+            <div class="beyond-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M12 12h.01"/><path d="M17 12h.01"/><path d="M7 12h.01"/></svg>
+            </div>
+            <span>MES</span>
+          </div>
+          <div class="beyond-item">
+            <div class="beyond-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <span>COI/COC Management</span>
+          </div>
+          <div class="beyond-item">
+            <div class="beyond-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>
+            </div>
+            <span>Contract Management</span>
+          </div>
+          <div class="beyond-item">
+            <div class="beyond-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <span>Compensation Tracking</span>
+          </div>
+          <div class="beyond-item">
+            <div class="beyond-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            </div>
+            <span>Adverse Events</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROCESS ========== -->
+    <section class="process section reveal" id="process">
+      <div class="container">
+        <div class="section-tag">Quick-Start Approach</div>
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-description">Our proven methodology gets your team productive fast — without the typical 12-month implementation timeline.</p>
+
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-number">01</div>
+            <h3>Assess</h3>
+            <p>We evaluate your current processes, systems, and regulatory requirements to define a tailored implementation roadmap.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">02</div>
+            <h3>Configure</h3>
+            <p>Deploy a pre-configured Salesforce environment optimized for life sciences, customized to your specific workflows and compliance needs.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">03</div>
+            <h3>Optimize</h3>
+            <p>Continuous improvement through analytics, user feedback, and evolving regulatory requirements to maximize your investment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner reveal">
+      <div class="container">
+        <h2>Ready to Transform Your Commercial Operations?</h2>
+        <p>Join hundreds of life sciences companies that have accelerated their commercial journey with LifeScienceForce.</p>
+        <a href="#contact" class="btn-light">
+          Talk to an Expert
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="contact section reveal" id="contact">
+      <div class="container">
+        <div class="section-tag">Get in Touch</div>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-description">Ready to learn more? Reach out to our team and we'll show you how LifeScienceForce can accelerate your path to market.</p>
+
+        <div class="contact-inner">
+          <div class="contact-info-cards">
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:8558782600">855.878.2600</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:Info@StratusG.com">Info@StratusG.com</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Mailing Address</h4>
+                <p>StratusG<br>999 Third Avenue, Suite 700<br>Seattle, WA 98104</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              </div>
+              <div>
+                <h4>Website</h4>
+                <a href="https://www.stratusg.com" target="_blank" rel="noopener noreferrer">www.StratusG.com</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Salesforce Web-to-Lead Form -->
+          <form class="contact-form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DA0000000IVj2" method="POST" aria-label="Contact form">
+            <!-- Salesforce Web-to-Lead hidden fields -->
+            <input type="hidden" name="captcha_settings" value='{"keyname":"BTF_V2","fallback":"true","orgId":"00DA0000000IVj2","ts":""}'>
+            <input type="hidden" name="oid" value="00DA0000000IVj2">
+            <input type="hidden" name="lead_source" value="Web Form - LifeScienceForce">
+            <input type="hidden" name="retURL" value="https://www.lifescienceforce.com/thank-you.html">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first_name">First Name <span style="color: var(--color-error)">*</span></label>
+                <input type="text" id="first_name" name="first_name" required placeholder="First name" maxlength="40">
+              </div>
+              <div class="form-group">
+                <label for="last_name">Last Name <span style="color: var(--color-error)">*</span></label>
+                <input type="text" id="last_name" name="last_name" required placeholder="Last name" maxlength="80">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Work Email <span style="color: var(--color-error)">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="you@company.com" maxlength="80">
+              </div>
+              <div class="form-group">
+                <label for="company">Company <span style="color: var(--color-error)">*</span></label>
+                <input type="text" id="company" name="company" required placeholder="Your company name" maxlength="40">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Your phone number" maxlength="40">
+            </div>
+            <div class="form-group">
+              <label for="description">Message</label>
+              <textarea id="description" name="description" placeholder="Tell us about your project or questions..."></textarea>
+            </div>
+            <div class="form-group">
+              <div class="g-recaptcha" data-sitekey="6LcYlYksAAAAAMIoFxrydeXgZ7WVzYSuaso3LDqA"></div>
+            </div>
+            <button type="submit" class="btn-submit">
+              Send Message
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo" aria-label="LifeScienceForce home">
+            <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width:32px;height:32px">
+              <circle cx="20" cy="20" r="18" stroke="var(--color-primary)" stroke-width="2" opacity="0.2"/>
+              <path d="M20 8 L28 14 L28 26 L20 32 L12 26 L12 14 Z" stroke="var(--color-primary)" stroke-width="1.5" fill="none"/>
+              <circle cx="20" cy="8" r="2.5" fill="var(--color-primary)"/>
+              <circle cx="28" cy="14" r="2.5" fill="var(--color-secondary)"/>
+              <circle cx="28" cy="26" r="2.5" fill="var(--color-primary)"/>
+              <circle cx="20" cy="32" r="2.5" fill="var(--color-secondary)"/>
+              <circle cx="12" cy="26" r="2.5" fill="var(--color-primary)"/>
+              <circle cx="12" cy="14" r="2.5" fill="var(--color-secondary)"/>
+              <circle cx="20" cy="20" r="3" fill="var(--color-primary)"/>
+            </svg>
+            <span class="logo-text" style="font-size: var(--text-base)">Life<span>Science</span>Force</span>
+          </a>
+          <p>Comprehensive Cloud Solutions for Life Sciences. A product of StratusG Consulting.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Solutions</h4>
+          <a href="#solutions">Sales Process</a>
+          <a href="#solutions">Medical Affairs</a>
+          <a href="#solutions">Distribution</a>
+          <a href="#integrations">Integrations</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="https://www.stratusg.com" target="_blank" rel="noopener noreferrer">StratusG</a>
+          <a href="#process">How It Works</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:8558782600">855.878.2600</a>
+          <a href="mailto:Info@StratusG.com">Info@StratusG.com</a>
+          <a>Seattle, WA</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 LifeScienceForce by StratusG Consulting. All rights reserved.</p>
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle
+    (function(){
+      const t = document.querySelector('[data-theme-toggle]');
+      const r = document.documentElement;
+      let d = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+      r.setAttribute('data-theme', d);
+      if (t) {
+        t.addEventListener('click', () => {
+          d = d === 'dark' ? 'light' : 'dark';
+          r.setAttribute('data-theme', d);
+          t.setAttribute('aria-label', 'Switch to ' + (d === 'dark' ? 'light' : 'dark') + ' mode');
+          t.innerHTML = d === 'dark'
+            ? '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>'
+            : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+        });
+      }
+    })();
+
+    // Mobile nav toggle
+    (function(){
+      const btn = document.querySelector('.mobile-toggle');
+      const nav = document.getElementById('mobileNav');
+      if (btn && nav) {
+        btn.addEventListener('click', () => {
+          const isOpen = nav.classList.toggle('active');
+          btn.setAttribute('aria-expanded', isOpen);
+        });
+        nav.querySelectorAll('a').forEach(a => {
+          a.addEventListener('click', () => {
+            nav.classList.remove('active');
+            btn.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }
+    })();
+
+    // Scroll reveal
+    (function(){
+      const reveals = document.querySelectorAll('.reveal');
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            obs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+      reveals.forEach(r => obs.observe(r));
+    })();
+
+    // Header scroll shadow
+    (function(){
+      const header = document.getElementById('header');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 10) {
+          header.classList.add('header--scrolled');
+        } else {
+          header.classList.remove('header--scrolled');
+        }
+      });
+    })();
+
+    // Hero Canvas — Molecular Network Animation
+    (function(){
+      const canvas = document.getElementById('heroCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      const dpr = window.devicePixelRatio || 1;
+
+      function resize() {
+        const rect = canvas.getBoundingClientRect();
+        canvas.width = rect.width * dpr;
+        canvas.height = rect.height * dpr;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+      resize();
+      window.addEventListener('resize', resize);
+
+      const W = () => canvas.width / dpr;
+      const H = () => canvas.height / dpr;
+
+      const style = getComputedStyle(document.documentElement);
+      const primary = () => style.getPropertyValue('--color-primary').trim() || '#5B2D8E';
+      const secondary = () => style.getPropertyValue('--color-secondary').trim() || '#0E8C7F';
+
+      // Nodes
+      const NODE_COUNT = 24;
+      const nodes = [];
+      for (let i = 0; i < NODE_COUNT; i++) {
+        const angle = (Math.PI * 2 * i) / NODE_COUNT + (Math.random() - 0.5) * 0.5;
+        const radius = 80 + Math.random() * 140;
+        nodes.push({
+          baseX: Math.cos(angle) * radius,
+          baseY: Math.sin(angle) * radius,
+          x: 0, y: 0,
+          r: 3 + Math.random() * 4,
+          phase: Math.random() * Math.PI * 2,
+          speed: 0.3 + Math.random() * 0.5,
+          ampX: 5 + Math.random() * 15,
+          ampY: 5 + Math.random() * 15,
+          isPrimary: Math.random() > 0.5
+        });
+      }
+
+      function draw(t) {
+        const w = W(), h = H();
+        ctx.clearRect(0, 0, w, h);
+        const cx = w / 2, cy = h / 2;
+
+        // Update positions
+        nodes.forEach(n => {
+          n.x = cx + n.baseX + Math.sin(t * 0.001 * n.speed + n.phase) * n.ampX;
+          n.y = cy + n.baseY + Math.cos(t * 0.001 * n.speed + n.phase * 1.3) * n.ampY;
+        });
+
+        // Draw connections
+        for (let i = 0; i < nodes.length; i++) {
+          for (let j = i + 1; j < nodes.length; j++) {
+            const dx = nodes[i].x - nodes[j].x;
+            const dy = nodes[i].y - nodes[j].y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < 160) {
+              const opacity = (1 - dist / 160) * 0.25;
+              ctx.beginPath();
+              ctx.moveTo(nodes[i].x, nodes[i].y);
+              ctx.lineTo(nodes[j].x, nodes[j].y);
+              ctx.strokeStyle = nodes[i].isPrimary
+                ? primary().replace(')', `, ${opacity})`).replace('rgb', 'rgba').replace('#', '')
+                : secondary().replace(')', `, ${opacity})`).replace('rgb', 'rgba');
+
+              // Simplified stroke color
+              ctx.strokeStyle = `rgba(${nodes[i].isPrimary ? '91,45,142' : '14,140,127'}, ${opacity})`;
+              ctx.lineWidth = 1;
+              ctx.stroke();
+            }
+          }
+        }
+
+        // Draw outer ring
+        ctx.beginPath();
+        ctx.arc(cx, cy, Math.min(w, h) * 0.42, 0, Math.PI * 2);
+        ctx.strokeStyle = `rgba(91,45,142, 0.08)`;
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(cx, cy, Math.min(w, h) * 0.28, 0, Math.PI * 2);
+        ctx.strokeStyle = `rgba(14,140,127, 0.08)`;
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+
+        // Draw hexagon outline
+        const hexR = Math.min(w, h) * 0.22;
+        ctx.beginPath();
+        for (let i = 0; i < 6; i++) {
+          const a = (Math.PI / 3) * i - Math.PI / 6 + t * 0.0001;
+          const px = cx + Math.cos(a) * hexR;
+          const py = cy + Math.sin(a) * hexR;
+          if (i === 0) ctx.moveTo(px, py);
+          else ctx.lineTo(px, py);
+        }
+        ctx.closePath();
+        ctx.strokeStyle = `rgba(91,45,142, 0.12)`;
+        ctx.lineWidth = 1;
+        ctx.stroke();
+
+        // Draw nodes
+        nodes.forEach(n => {
+          const col = n.isPrimary ? '91,45,142' : '14,140,127';
+
+          // Glow
+          ctx.beginPath();
+          ctx.arc(n.x, n.y, n.r * 2.5, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(${col}, 0.06)`;
+          ctx.fill();
+
+          // Node
+          ctx.beginPath();
+          ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(${col}, 0.7)`;
+          ctx.fill();
+        });
+
+        // Center node
+        ctx.beginPath();
+        ctx.arc(cx, cy, 8, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(91,45,142, 0.15)`;
+        ctx.fill();
+        ctx.beginPath();
+        ctx.arc(cx, cy, 5, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(91,45,142, 0.5)`;
+        ctx.fill();
+
+        requestAnimationFrame(draw);
+      }
+      requestAnimationFrame(draw);
+    })();
+  </script>
+</body>
+</html>
