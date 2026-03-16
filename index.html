@@ -53,7 +53,7 @@
       "@type": "Organization",
       "name": "StratusG Consulting",
       "url": "https://www.stratusg.com",
-      "telephone": "855-878-2600",
+      "telephone": "",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "999 Third Avenue, Suite 700",
@@ -415,7 +415,7 @@
               </div>
               <div>
                 <h4>Phone</h4>
-                <a href="tel:8558782600">855.878.2600</a>
+                <a class="js-phone" href="#"></a>
               </div>
             </div>
             <div class="contact-card">
@@ -532,7 +532,7 @@
         </div>
         <div class="footer-col">
           <h4>Contact</h4>
-          <a href="tel:8558782600">855.878.2600</a>
+          <a class="js-phone" href="#"></a>
           <a href="mailto:Info@StratusG.com">Info@StratusG.com</a>
           <a>Seattle, WA</a>
         </div>
@@ -561,6 +561,16 @@
             : '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
         });
       }
+    })();
+
+    // Phone obfuscation — assembled at runtime so bots can't scrape it
+    (function(){
+      var p = ['8','5','5','.','8','7','8','.','2','6','0','0'];
+      var d = ['8','5','5','8','7','8','2','6','0','0'];
+      document.querySelectorAll('.js-phone').forEach(function(el){
+        el.textContent = p.join('');
+        el.href = 'tel:' + d.join('');
+      });
     })();
 
     // Mobile nav toggle
